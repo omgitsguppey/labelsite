@@ -31,6 +31,12 @@ The project uses Jest for basic testing. After installing dependencies, run:
 npm test
 ```
 
+### Continuous Integration
+
+This project uses GitHub Actions to automatically run `npm test` on every pull
+request. The workflow configuration resides in
+`.github/workflows/nodejs.yml`.
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
