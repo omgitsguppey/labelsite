@@ -1,0 +1,21 @@
+{
+  "name": "labelsite",
+  "version": "1.0.0",
+  "description": "Digital label site for independent artists",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "supertest": "^6.3.4"
+  }
+}
