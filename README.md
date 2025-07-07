@@ -14,14 +14,14 @@ Stop tweeting about the game—sign and become the glitch.
 
 ## Getting Started
 
-This repository contains a very small Express server as a starting point. To run it locally:
+This repository contains a very small Express server serving a static home page. To run it locally:
 
 ```bash
 npm install
 npm start
 ```
 
-Open `http://localhost:3000` in your browser.
+Open `http://localhost:3000` in your browser. The home page lives in `public/index.html` and can be customized with your own copy or styling.
 
 ### Running Tests
 
